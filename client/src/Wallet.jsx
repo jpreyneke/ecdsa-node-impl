@@ -19,8 +19,8 @@ function Wallet({ address, setAddress, balance, setBalance }) {
       <h1>Your Wallet</h1>
 
       <label>
-        Wallet Address
-        <input placeholder="Type an address, for example: 0x1" value={address} onChange={onChange}></input>
+        Your Public Key (required)
+        <input placeholder="Type your public key, for example: 0x1" value={address} onChange={onChange}></input>
       </label>
 
       <div className="balance">Balance: {balance}</div>
